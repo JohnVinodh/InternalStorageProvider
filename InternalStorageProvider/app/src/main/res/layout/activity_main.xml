@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Data to Internal Storage PDF"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:onClick="onBtnSaveDataToInternalStoragepdf"
+        android:id="@+id/btn_save_data_to_internalstoragepdf"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Save Data to Internal Storage XLS"
+        android:onClick="onBtnSaveDataToInternalStoragexls"
+        android:id="@+id/btn_save_data_to_internalstoragexls"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Save Data to Internal Storage TEXT"
+        android:onClick="onBtnSaveDataToInternalStorageText"
+        android:id="@+id/btn_save_data_to_internalstorageText"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Retrieve Data from Internal Storage PDF "
+        android:onClick="onBtnRetrieveDataFromInternalStoragepdf"
+        android:id="@+id/btn_retrieve_data_from_internalstoragepdf"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Retrieve Data from Internal Storage XLS"
+        android:onClick="onBtnRetrieveDataFromInternalStoragexls"
+        android:id="@+id/btn_retrieve_data_from_internalstoragexls"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Retrieve Data from Internal Storage TEXT"
+        android:onClick="onBtnRetrieveDataFromInternalStorageText"
+        android:id="@+id/btn_retrieve_data_from_internalstorageText"/>
+
+
+</LinearLayout>
