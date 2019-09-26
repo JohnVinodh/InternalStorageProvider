@@ -1,1 +1,1 @@
-include ':app', ':konywidgets'
+include ':app', ':konywidgets', ':fileproviderstoragelibrary'
